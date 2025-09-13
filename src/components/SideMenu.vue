@@ -2,8 +2,8 @@
   <div :class="{
       'translate-x-0': isOpen || isPinned,
       '-translate-x-full': !isOpen && !isPinned,
-      'w-20': isPinned && !isOpen, /* Smaller width when pinned and closed */
-      'w-86': !isPinned || isOpen /* Normal width when not pinned or open */
+      'w-24': isPinned && !isOpen, /* Smaller width when pinned and closed */
+      'w-96': !isPinned || isOpen /* Normal width when not pinned or open */
     }"
     class="shadow-neumorphic-sm fixed inset-y-0 left-0 z-30 h-full flex flex-col bg-white overflow-y-auto transition duration-300 ease-in-out transform lg:translate-x-0 lg:static lg:inset-0">
 
@@ -44,11 +44,11 @@
     </div>
     <div class="p-4 space-y-4">
       <button class="btn-neumorphic w-full flex items-center justify-center">
-        <svg class="h-5 w-5 text-gray-700 mr-2" :class="{'mr-0': isPinned && !isOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4m0-10h.01"></path></svg>
+        <img src="@/assets/3d-report.png" alt="Cadastrar Produto" class="h-5 w-5 mr-2" :class="{'mr-0': isPinned && !isOpen}">
         <span :class="{'hidden': isPinned && !isOpen}">Cadastrar Produto</span>
       </button>
       <button class="btn-neumorphic w-full flex items-center justify-center">
-        <svg class="h-5 w-5 text-gray-700 mr-2" :class="{'mr-0': isPinned && !isOpen}" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+        <img src="@/assets/3d-modeling.png" alt="Cadastrar Modelos" class="h-5 w-5 mr-2" :class="{'mr-0': isPinned && !isOpen}">
         <span :class="{'hidden': isPinned && !isOpen}">Cadastrar Modelos</span>
       </button>
     </div>
