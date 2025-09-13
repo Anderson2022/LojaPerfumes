@@ -24,7 +24,7 @@
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
 import CartModal from './components/CartModal.vue';
-import SideMenu from './components/SideMenu.vue'; // Added import for SideMenu
+
 import { emitter } from './event-bus.js';
 import { getCartItems, addOrUpdateCartItem, removeCartItem } from './services/cartDb'; // Import DB functions
 
@@ -34,7 +34,7 @@ export default {
     Header,
     Footer,
     CartModal,
-    SideMenu, // Added SideMenu to components
+  
 
   },
   data() {
