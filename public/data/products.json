@@ -5,7 +5,7 @@
     "brand": "Marca Famosa",
     "description": "Uma breve descrição do Cosmético 06, destacando suas principais qualidades e benefícios para o usuário.",
     "price": "40,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+06"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "brand": "Marca Exclusiva",
     "description": "Uma breve descrição do Cosmético 08, ideal para uso diário e com uma fragrância inesquecível.",
     "price": "35,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+08"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "brand": "Marca Clássica",
     "description": "O Cosmético 01 é um item de luxo, perfeito para ocasiões especiais e para quem busca sofisticação.",
     "price": "100,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+01"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "brand": "Marca Famosa",
     "description": "Descrição do Cosmético 10. Um produto de alta qualidade com resultados comprovados.",
     "price": "160,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+10"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "brand": "Marca Exclusiva",
     "description": "Este é o Cosmético 03. Uma escolha popular entre nossos clientes, com excelentes avaliações.",
     "price": "80,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+03"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "brand": "Marca Clássica",
     "description": "Uma breve descrição do Cosmético 12. Fragrância duradoura e composição de alta qualidade.",
     "price": "180,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+12"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "brand": "Marca Famosa",
     "description": "O Cosmético 05 é perfeito para o dia a dia. Leve, refrescante e com um toque de elegância.",
     "price": "50,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+05"
+    "image": "/img/eeeee.jpg"
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "brand": "Marca Exclusiva",
     "description": "Descrição do Cosmético 07. Um item indispensável para sua coleção, com fragrância marcante.",
     "price": "120,00",
-    "image": "https://via.placeholder.com/300x300.png?text=Cosmético+07"
+    "image": "/img/eeeee.jpg"
   }
 ]

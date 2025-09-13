@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import ProductListView from '../views/ProductListView.vue';
 import ProductDetailView from '../views/ProductDetailView.vue';
+import ProductFormView from '../views/ProductFormView.vue'; // Import the new component
+import AdminPanel from '../views/AdminPanel.vue';
 
 const routes = [
   {
@@ -34,6 +36,16 @@ const routes = [
     name: 'ProductDetail',
     component: ProductDetailView,
     props: true
+  },
+  {
+    path: '/admin/product/new', // New route for product registration
+    name: 'ProductNew',
+    component: ProductFormView,
+  },
+  {
+    path: '/admin',
+    name: 'AdminPanel',
+    component: AdminPanel,
   },
 ];
 
